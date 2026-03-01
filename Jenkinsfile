@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'dev',
-                    url: 'https://github.com/YOUR_GITHUB/simple-node-app.git'
+                    url: 'https://github.com/ANUP-2023/simple-node-app.git'
             }
         }
 
