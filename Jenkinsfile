@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "yourdockerhubusername/simple-node-app"
+        DOCKER_IMAGE = "anup999/simple-node-app"
         DOCKER_CREDS = credentials('jenkins-docker')
     }
 
