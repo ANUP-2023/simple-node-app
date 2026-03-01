@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "yourdockerhubusername/simple-node-app"
-        DOCKER_CREDS = credentials('dockerhub-creds')
+        DOCKER_CREDS = credentials('jenkins-docker')
     }
 
     stages {
